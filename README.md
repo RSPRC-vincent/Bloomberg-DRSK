@@ -1,2 +1,2 @@
 # Bloomberg-DRSK
-codes for Bloomberg-DRSK public firms
+Bloomberg-DRSK public firms
