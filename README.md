@@ -1,2 +1,2 @@
 # Bloomberg-DRSK
-Bloomberg-DRSK public firms
+Bloomberg-DRSK public firm
