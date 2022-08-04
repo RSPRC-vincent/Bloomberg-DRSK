@@ -233,7 +233,7 @@ a <- stock_price1_s[which(is.na(stock_price1_s1$LnStock)), ]
 
 # calculate Sigma (group by stock)
 df <- ddply(stock_price1_s,~stock,summarise,mean=mean(LnStock, na.rm = T),sd=sd(LnStock, na.rm = T))
-df$Sigma0 <- df$sd*sqrt(245)
+df$Sigma0 <- df$sd*sqrt(245) #245個交易日
 
 # combine data
 data26 <- SP26_s %>% 
